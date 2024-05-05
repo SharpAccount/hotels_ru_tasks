@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: column; width: 25%">
+            <h3>1-я задача</h3>
+            <input id="count" type="number" placeholder="Введите число">
+            <button onclick="computersAmount(document.getElementById('count').value)">Вывести ответ</button>
+            <h3>2-я задача</h3>
+            <input id="numsArr" placeholder="Введите числа через пробел">
+            <button onclick="callFindDivs(document.getElementById('numsArr').value)">Вывести ответ</button>
+            <h3>3-я задача</h3>
+            <input id="range" placeholder="Введите 2 числа через пробел">
+            <button onclick="simpleNumbers(document.getElementById('range').value)">Вывести ответ</button>
+            <h3>4-я задача</h3>
+            <input id="limit" placeholder="Введите число">
+            <button onclick="showMultipleTable(document.getElementById('limit').value)">Вывести ответ</button>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
